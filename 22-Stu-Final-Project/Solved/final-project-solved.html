@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Final Project</title>
+  <script>
+
+    words = []
+    for(var i = 0; i < 3; i++)
+      words.push(prompt("Please enter an adjective and a noun, separated with a comma!").split(","));
+
+    var sentence = words[0][0] + " " + words[0][1] + " is learning JavaScript like a " + words[1][0] +
+      " " + words[1][1] + " and before you know it will be a " + words[2][0] + " " + words[2][1] +
+      '.';
+    alert(sentence);
+
+  </script>
+</head>
+
+</html>

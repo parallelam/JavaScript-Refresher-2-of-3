@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Nested Loops</title>
+  <script>
+
+
+    var pairs = [
+      ['big', 'small'],
+      ['cat', 'dog'],
+      ['old', 'young']
+    ];
+    console.log(pairs[0][0]);
+    console.log(pairs[0][1]);
+    console.log(pairs[1][0]);
+    console.log(pairs[1][1]);
+    console.log(pairs[2][0]);
+    console.log(pairs[2][1]);
+
+
+    for (var i = 0; i < pairs.length; i++) {
+      for (var j = 0; j < pairs[i].length; j++) {
+        console.log(pairs[i][j]);
+      }
+    }
+
+  </script>
+</head>
+
+</html>
